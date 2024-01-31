@@ -1,5 +1,4 @@
 #include "selection.h"
-#include <stdio.h>
 
 void swap(int *a, int *b)
 {
@@ -25,14 +24,4 @@ void selection_sort(int *array, int size)
             swap(&array[i], &array[min_index]);
         }
     }
-}
-
-int main()
-{
-    int array[] = { 1, 5, 2, 4, 3 };
-    selection_sort(array, 5);
-    for (int i = 0; i < 5; i++)
-        printf("%d ", array[i]);
-    printf("\n");
-    return 0;
 }
