@@ -1,4 +1,4 @@
-# Algo to known as a developer
+# Algo to know as a developer
 
 ## Arrays
 
